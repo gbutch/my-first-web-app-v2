@@ -1,0 +1,25 @@
+{
+  "name": "qa-node-blog",
+  "version": "1.0.0",
+  "description": "A practice application for grad qa's to play about with",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbutch/qa-node-blog.git"
+  },
+  "author": "Geran Butcher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbutch/qa-node-blog/issues"
+  },
+  "homepage": "https://github.com/gbutch/qa-node-blog#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "ejs": "^1.0.0"}
+}

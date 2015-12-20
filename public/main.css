@@ -1,0 +1,16 @@
+html, body{
+  margin:0;
+  padding:0;
+  height:100%;
+}
+.content-container {
+    width: 980px;
+    margin: 0 auto;
+    top: 60px;
+    margin-top: 20px;
+    position:relative;
+    border-right:1px solid gainsboro;
+    border-left:1px solid gainsboro;
+    height: 100%;
+    padding: 16px 0 0 16px;
+}
