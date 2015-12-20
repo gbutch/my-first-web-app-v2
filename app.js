@@ -8,6 +8,10 @@ app.get('/', function (req, res) {
   res.render("pages/homepage");
 });
 
+app.get('/sign-in', function (req, res) {
+  res.render("pages/sign-in");
+});
+
 var server = app.listen(process.env.PORT || 5000, function() {
   var host = server.address().address;
   var port = server.address().port;
